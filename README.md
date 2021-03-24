@@ -1,7 +1,7 @@
 This code was created at 1993.
 
 class Abetov{
-    constructor(name, hobby, birthday){
+    constructor(name, hobby, birthday){/n
           this.name = name
           this.hobby = hobby
           this.birthday = birthday
