@@ -1,24 +1,16 @@
-This code was created at 1993.
+This code was created at 1993 by marry couple of entusiasts
 
 class Abetov{
-
-    constructor(name, hobby, birthday){	
+    
+    constructor(name, hobby, birthday)
+    {	
  	      this.name = name;    
           this.hobby = hobby;    
           this.birthday = birthday;          
-    }
-    
-    introduction(){
-    
-    return `hello, my name is ${this.name} Abetov. My giftedness is ${this.hobby}.`}
-    
+    }  
+    introduction(){  
+    return `hello, my name is ${this.name} Abetov. My giftedness is ${this.hobby}.`
+    } 
 }
 
-let Alex = new Abetov("Alex", "frontend", 28)
-
-
-- 👋 Hi, My name is Alex Abetov, I am a begginer.
-- 👀 I’m interested in learning somethink new and getting better at coding.
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+let Alex = new Abetov("Alex", "frontend", 4.5.93)
