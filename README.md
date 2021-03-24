@@ -1,10 +1,15 @@
 This code was created at 1993.
 
 class Abetov{
+
     constructor(name, hobby, birthday){	
+    
  	     this.name = name;
+         
           this.hobby = hobby;
-          this.birthday = birthday;  	  
+          
+          this.birthday = birthday;  
+          
     }
     
     introduction(){
@@ -12,6 +17,8 @@ class Abetov{
     return `hello, my name is ${this.name} Abetov. My giftedness is ${this.hobby}.`}
     
 }
+
+let Alex = new Abetov("Alex", "frontend", 28)
 
 
 - 👋 Hi, My name is Alex Abetov, I am a begginer.
