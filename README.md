@@ -1,10 +1,9 @@
 This code was created at 1993 by marry couple of entusiasts.
 
 class Abetov{
-
 	constructor(name, hobby, birthday)
     {	
- 	      this.name = name;    
+ 	  this.name = name;    
           this.hobby = hobby;    
           this.birthday = birthday;          
     }  
